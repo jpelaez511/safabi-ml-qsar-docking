@@ -1,0 +1,72 @@
+# ==========================================
+# Byte-compiled / optimized / DLL files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================================
+# Caches y entornos virtuales de Python / Conda
+# ==========================================
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+.installed.cfg
+*.egg
+build/
+dist/
+develop-eggs/
+eggs/
+parts/
+bin/
+var/
+sdist/
+
+# Entornos virtuales locales
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env
+
+# ==========================================
+# Jupyter Notebooks y Checkpoints
+# ==========================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# ==========================================
+# Editores y Entornos de Desarrollo (IDE)
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ==========================================
+# Datos pesados de Quimioinformática / Docking
+# ==========================================
+# Archivos masivos o crudos (descargar externamente si > 100 MB)
+data/raw/*.sdf
+data/raw/*.zip
+data/raw/*.tar.gz
+
+# Archivos temporales de log o acoplamiento molecular
+*.log
+*.dlg
+*.glg
+
+# Permitir explícitamente el CSV curado de ChEMBL si es ligero
+!data/raw/IC50_FabI.csv
+
+# Mantener carpetas en el repositorio aunque estén vacías
+!.gitkeep
