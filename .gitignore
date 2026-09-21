@@ -36,7 +36,7 @@ venv.bak/
 # ==========================================
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
-.ipynb
+*.ipynb
 
 # ==========================================
 # Editores y Entornos de Desarrollo (IDE)
